@@ -1,0 +1,105 @@
+/* texte et fond d'écran */
+
+body {
+    text-decoration: none;
+    background-repeat: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/fond.png);
+    color: orange;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+/* intérieur des cases pour écrire */
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 0%;
+}
+
+
+/* titres */
+#container h1 {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Calibri;
+    color: orange;
+}
+
+
+/* cases pour écrire */
+input[type=text] {
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+/* bouton de type submit Valider */
+input[type=submit] {
+    text-decoration: none;
+    font-family: Arial;
+    align-items: flex-start;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 2rem;
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 55px;
+}
+
+/* mise en forme de la barre de navigation*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* propriété générale de la barre avec logo, accueil... ; on l'appelera navbar */
+.nav-list {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* propriété individuelle des éléments de la navbar */
+.nav-item {
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: none;
+}
+
+/* propriété individuelle intérieure des éléments de la navbar */
+.nav-item a {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+/* logo pour le mettre du côté gauche quand les autres sont du côté droit*/
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+/* message d'erreur Restaurant inconnu */
+h2{
+    position: fixed;
+    right: 650px;
+    bottom: 350px;
+    color: red;
+}
