@@ -54,9 +54,6 @@ $db_name = "restaurant_ratings";
 - `restaurant/` - Restaurant listings and details
 - `reviews/` - Review submission and display
 
-## Screenshots
-(Add screenshots of key pages: homepage, restaurant listing, review form, user profile)
-
 ## Future Enhancements
 - Geolocation-based restaurant suggestions
 - Integration with reservation systems
